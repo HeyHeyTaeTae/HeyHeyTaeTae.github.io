@@ -16,5 +16,6 @@ body, html {
 
 	background-image: url("http://i.imgur.com/E0ZDpYO.jpg");
 	height: 100%;
+	background-size: cover;
 
 }
