@@ -29,6 +29,7 @@ body, html {
     font-size: 100px;
     border: 7px solid;
     padding: 20px;
+    font-family: 'Lobster', cursive;
 
 }
 
@@ -54,14 +55,10 @@ body, html {
 
 }
 
-.borderBracket:before {
-
-	content: '[';
-
-}
-
+.borderBracket:before,
 .borderBracket:after {
 
-	content: ']';
+	content: '';
+	position: absolute;
 
 }
