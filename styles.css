@@ -22,14 +22,46 @@ body, html {
 
 #myName {
 
-	font-family: 'Lobster', cursive;
+	position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 100px;
+    border: 7px solid;
+    padding: 20px;
 
 }
 
 #bioLink {
 
+	position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%);
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+
 }
 
 #contactLink {
-	
+
+	position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%);
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+
+}
+
+.borderBracket:before {
+
+	content: '[';
+
+}
+
+.borderBracket:after {
+
+	content: ']';
+
 }
