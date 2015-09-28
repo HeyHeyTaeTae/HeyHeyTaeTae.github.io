@@ -55,10 +55,16 @@ body, html {
 
 }
 
-.borderBracket:before,
+.borderBracket:before {
+
+	content: '[';
+	position: absolute;
+
+}
+
 .borderBracket:after {
 
-	content: '';
+	content: ']';
 	position: absolute;
 
 }
