@@ -43,6 +43,21 @@ body, html {
    /*background-color: blue;*/
 }
 
+.link {
+
+	opacity: 0;
+	-webkit-transition: opacity 3s ease-in;
+    -moz-transition: opacity 3s ease-in;
+    -o-transition: opacity 3s ease-in;
+    -ms-transition: opacity 3s ease-in;
+    transition: opacity 3s ease-in;
+
+}
+
+.link.load {
+	opacity: 1;
+}
+
 #bioLink {
 
 	position: absolute;
