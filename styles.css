@@ -20,7 +20,7 @@ body, html {
 
 }
 
-#myName {
+#myName p {
 
 	opacity: 0;
 	position: absolute;
