@@ -1,0 +1,1 @@
+#("#myName").addClass("load");
