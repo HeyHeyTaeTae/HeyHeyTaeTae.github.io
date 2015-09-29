@@ -5,6 +5,6 @@ $(document).ready(function(){
 		$(".link").css("opacity");
 		$(".link").addClass("load");
 	}
-		, 2000);
+		, 1000);
 	
 });
