@@ -1,5 +1,6 @@
 $(document).ready(function(){
-
-#("#myName p").addClass("load");
-	
+	// setTimeout(function(){
+		$("#myName").css("opacity")
+		$("#myName").addClass("load");
+	// }, 200)
 });

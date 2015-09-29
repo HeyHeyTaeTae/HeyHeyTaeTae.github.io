@@ -20,7 +20,7 @@ body, html {
 
 }
 
-#myName p {
+#myName {
 
 	opacity: 0;
 	position: absolute;
@@ -38,15 +38,16 @@ body, html {
     transition: opacity 2s ease-in;
 }
 
-#myName p.load {
-    opacity: 1;
+#myName.load {
+   opacity: 1;
+   /*background-color: blue;*/
 }
 
 #bioLink {
 
 	position: absolute;
     top: 50%;
-    left: 40%;
+    left: 38%;
     transform: translate(-50%);
     font-family: 'Lobster', cursive;
     font-size: 35px;
