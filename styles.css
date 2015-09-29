@@ -31,10 +31,16 @@ body, html {
     border: 7px solid;
     padding: 20px;
     font-family: 'Lobster', cursive;
-
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
 }
 
-
+#test p.load {
+    opacity: 1;
+}
 
 #bioLink {
 
