@@ -22,6 +22,7 @@ body, html {
 
 #myName {
 
+	opacity: 0;
 	position: absolute;
     top: 10%;
     left: 50%;
@@ -32,6 +33,8 @@ body, html {
     font-family: 'Lobster', cursive;
 
 }
+
+
 
 #bioLink {
 
