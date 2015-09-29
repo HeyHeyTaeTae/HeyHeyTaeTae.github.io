@@ -1,1 +1,1 @@
-#("#myName").addClass("load");
+#("#myName p").addClass("load");
