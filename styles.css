@@ -54,8 +54,9 @@
 
 .name-and-title {
 
-	text-align: center;
-	margin-top: 175px;
+    text-align: center;
+    margin-top: 300px;
+    letter-spacing: .05em;
 
 }
 
@@ -68,7 +69,8 @@
 
 .name-and-title h1 {
 
-	font-size: 6em;
+	font-size: 7em;
+    letter-spacing: 5px;
 
 }
 
@@ -78,6 +80,8 @@
     color: white;
 
 }
+
+.name {}
 
 .project-gallery-section {
 
