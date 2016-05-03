@@ -47,6 +47,14 @@
 
 } 
 
+.icon-row {
+
+    height: 64px;
+    display: inline-block;
+    margin: 20px 0 0 20px;
+
+}
+
 /*-- selects all col- class and gives float left --*/
 [class*='col-'] {
   float: left;
@@ -55,17 +63,10 @@
 .name-and-title {
 
     text-align: center;
-    margin-top: 300px;
+    margin-top: 225px;
     letter-spacing: .05em;
 
 }
-
-/*.name,
-.title {
-
-	visibility: hidden;
-
-}*/
 
 .name-and-title h1 {
 
@@ -81,7 +82,40 @@
 
 }
 
-.name {}
+.linkedin-icon {
+
+    background-image: url(http://i.imgur.com/b1nrLsw.png);
+
+}
+
+.github-icon {
+
+    background-image: url(http://i.imgur.com/Oq7OqZJ.png);
+
+}
+
+.linkedin-icon,
+.github-icon {
+
+    display: inline-block;
+
+}
+
+.linkedin-icon {
+
+    height: 64px;
+    width: 64px;
+
+}
+
+.github-icon {
+
+    height: 48px;
+    width: 48px;
+    background-repeat: no-repeat;
+    padding-top: 8px;
+
+}
 
 .project-gallery-section {
 
@@ -90,8 +124,39 @@
 	
 }
 
+.project-row {
 
+    height: 300px;
+    padding-top: 100px
 
+}
+
+.first-project {
+
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    margin-left: 8.33%;
+
+}
+
+.second-project {
+
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    margin: 0 4.165% 0 4.165%;
+
+}
+
+.third-project {
+
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    margin-right: 8.33%;
+
+}
 
 
 
