@@ -91,6 +91,8 @@
 .github-icon {
 
     background-image: url(http://i.imgur.com/Oq7OqZJ.png);
+    background-position-y: 8px;
+    background-repeat: no-repeat;
 
 }
 
@@ -101,20 +103,21 @@
 
 }
 
-.linkedin-icon {
+.linkedin-icon,
+.github-icon {
 
     height: 64px;
     width: 64px;
 
 }
 
-.github-icon {
+.linkedin-icon a,
+.github-icon a {
 
-    height: 48px;
-    width: 48px;
-    background-repeat: no-repeat;
-    padding-top: 8px;
-
+    height: 100%;
+    display: inline-block;
+    width: 100%;
+    
 }
 
 .project-gallery-section {
@@ -122,6 +125,23 @@
     background-color: RGB(39, 40, 33);
     height: 800px;
 	
+}
+
+.project-title-div {
+
+    padding-top: 50px;
+
+}
+
+.project-title-div h1 {
+
+    background-color: white;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: RGB(39, 40, 33);
+    font-size: 2em;
+
 }
 
 .project-row {
