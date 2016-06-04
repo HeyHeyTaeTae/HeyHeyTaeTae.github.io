@@ -117,13 +117,13 @@
     height: 100%;
     display: inline-block;
     width: 100%;
-    
+
 }
 
 .project-gallery-section {
 
     background-color: RGB(39, 40, 33);
-    height: 800px;
+    height: 750px;
 	
 }
 
@@ -146,35 +146,46 @@
 
 .project-row {
 
-    height: 300px;
-    padding-top: 100px
+    height: 350px;
+    padding-top: 100px;
 
 }
 
 .first-project {
 
     width: 25%;
-    height: 100%;
-    background-color: white;
+    height: 350px;
     margin-left: 8.33%;
+    visibility: hidden;
 
 }
 
 .second-project {
 
     width: 25%;
-    height: 100%;
+    height: 350px;
     background-color: white;
     margin: 0 4.165% 0 4.165%;
+    background-image: url(http://i.imgur.com/70fKFnz.png);
+    background-size: cover;
+    background-position-x: -195px;
+
+}
+
+.second-project > a {
+
+    display: inline-block;
+    height: 100%;
+    width: 100%;
 
 }
 
 .third-project {
 
     width: 25%;
-    height: 100%;
-    background-color: white;
+    height: 350px;
     margin-right: 8.33%;
+    visibility: hidden;
 
 }
 
