@@ -6,6 +6,13 @@
 
 }
 
+html,
+body {
+
+    height: 100%;
+
+}
+
 /*-- fluid width and larger display width -- */
 .grid-container {
 
@@ -26,7 +33,10 @@
 
 .basic-info {
 
-    background-image: url(http://i.imgur.com/dg0vV8J.jpg);
+    background: url(http://i.imgur.com/dg0vV8J.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     opacity: .95;
     background-position-y: -150px;
@@ -189,6 +199,60 @@
 
 }
 
+.project-wrapper {
+
+    position: relative;
+    color: white;
+
+}
+
+.tooltip {
+
+    opacity: 0;
+    background-color: RGBA(39, 149, 191, 1);
+    display: block;
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    bottom: 105%;
+    left: -40px;
+
+}
+
+.project-wrapper .tooltip:before {
+  bottom: -20px;
+  content: " ";
+  display: block;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}  
+
+.project-wrapper .tooltip:after {
+  border-left: solid transparent 10px;
+  border-right: solid transparent 10px;
+  border-top: solid #1496bb 10px;
+  bottom: -10px;
+  content: " ";
+  height: 0;
+  left: 50%;
+  margin-left: -13px;
+  position: absolute;
+  width: 0;
+}
+
+.project-wrapper:hover .tooltip{
+
+    opacity: 1;
+
+} 
+
+.tooltip p {
+
+    padding: 10px;
+
+}
 
 
 
