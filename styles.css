@@ -39,7 +39,6 @@ body {
     -o-background-size: cover;
     background-size: cover;
     opacity: .95;
-    background-position-y: -150px;
     max-width: 1440px;
 
 }
