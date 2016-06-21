@@ -33,7 +33,7 @@ body {
 
 .basic-info {
 
-    background: url(http://i.imgur.com/dg0vV8J.jpg) no-repeat center center fixed; 
+    background: url(http://i.imgur.com/dg0vV8J.jpg); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
