@@ -211,11 +211,9 @@ body {
     opacity: 0;
     background-color: RGBA(39, 149, 191, 1);
     display: block;
-    width: 400px;
-    height: 150px;
+    height: 200px;
     position: absolute;
     bottom: 105%;
-    left: -40px;
 
 }
 

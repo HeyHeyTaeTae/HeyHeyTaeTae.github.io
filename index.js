@@ -1,10 +1,22 @@
 $(document).ready(function(){
 	console.log("this works")
 
-		// $(".name").hide().fadeIn(2500);
 		$(".name-and-title").hide().fadeIn(3000);
-		// $(".linkedin-icon").hide().fadeIn(8000);
-		// $(".github-icon").hide().fadeIn(8000);
+
+		$(".second-project").on("mouseover", function() {
+
+			var width = $(this).width();
+
+			console.log("the width of the 2nd project div is " + width + "px");
+
+			var tooltip = $(this).children(".tooltip");
+
+			console.log(tooltip);
+
+			tooltip.css("width", width);
+
+		})
+
 	
 });
 
