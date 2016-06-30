@@ -279,6 +279,22 @@ body {
     }
 }
 
+@media (max-width: 525px) {
+
+    .basic-info {
+
+        background-position-x: 50%;
+
+    }
+
+    .name-and-title {
+
+        margin-top: 60px;
+
+    }
+
+}
+
 
 
 
