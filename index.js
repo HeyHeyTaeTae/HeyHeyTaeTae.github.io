@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	console.log("this works")
 
-		$(".name-and-title").hide().fadeIn(3000);
+		$(".name-and-title").hide().fadeIn(5000);
 
 		$(".second-project").on("mouseover", function() {
 
