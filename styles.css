@@ -39,7 +39,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     opacity: .95;
-    background-position-y: 50%;
+    background-position-y: 75%;
     max-width: 1800px;
 
 }
@@ -69,6 +69,18 @@ body {
 /*-- selects all col- class and gives float left --*/
 [class*='col-'] {
   float: left;
+}
+
+.col-one-third {
+
+    width: 33.33%;
+
+}
+
+.col-two-thirds {
+
+    width: 66.66%;
+
 }
 
 .name-and-title {
@@ -264,10 +276,48 @@ body {
 
 }
 
-.about-div {
+.about-row {
 
+    height: 400px;
+    width: 80%;
+    margin: 100px auto;
 
+}
 
+.about-img {
+
+    background-image: url(http://i.imgur.com/7s7kO5W.jpg);
+    background-size: cover;
+    background-position-y: 40%; 
+
+}
+
+.about-img,
+.about-info {
+
+    height: 100%;
+
+}
+
+.about-info p {
+
+    line-height: 1.5em;
+    font-size: 18px;
+
+}
+
+.about-info h1 {
+
+    font-size: 30px;
+    
+}
+
+.about-info p,
+.about-info h1 {
+
+    color: white;
+    padding: 0 5% 5% 5%;
+    
 }
 
 @media (max-width: 400px) {
