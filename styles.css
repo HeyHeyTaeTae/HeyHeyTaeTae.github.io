@@ -263,6 +263,19 @@ body {
 
 @media (max-width: 400px) {
 
+    .basic-info {
+
+        height: 600px;
+
+    }
+
+    .name-and-title {
+
+        margin-top: 250px;
+        font-size: 10px;
+
+    }
+
     .first-project,
     .third-project {
 
@@ -285,13 +298,7 @@ body {
 
     .basic-info {
 
-        background-position-x: 50%;
-
-    }
-
-    .name-and-title {
-
-        margin-top: 60px;
+        background-position-x: 35%;
 
     }
 
