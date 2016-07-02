@@ -63,6 +63,7 @@ body {
     height: 64px;
     display: inline-block;
     margin: 20px 0 0 20px;
+    position: fixed;    
 
 }
 
@@ -156,7 +157,7 @@ body {
 .about-section {
 
     background-color: RGB(39, 40, 33);
-    height: 650px;
+    height: 700px;
 	
 }
 
@@ -280,7 +281,8 @@ body {
 
     height: 400px;
     width: 80%;
-    margin: 100px auto;
+    margin: auto;
+    margin-top: 150px;
 
 }
 
@@ -303,20 +305,21 @@ body {
 
     line-height: 1.5em;
     font-size: 18px;
+    padding-top: 2%;
 
 }
 
 .about-info h1 {
 
     font-size: 30px;
-    
+
 }
 
 .about-info p,
 .about-info h1 {
 
     color: white;
-    padding: 0 5% 5% 5%;
+    padding-left: 10%;
     
 }
 
