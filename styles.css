@@ -33,13 +33,13 @@ body {
 
 .basic-info {
 
-    background: url(http://i.imgur.com/dg0vV8J.jpg); 
+    background: url(http://i.imgur.com/l8vvhk5.jpg); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     opacity: .95;
-    background-position-y: 75%;
+    background-position-y: 50%;
     max-width: 1800px;
 
 }
@@ -47,7 +47,8 @@ body {
 .basic-info,
 .basic-info-row {
 
-    height: 600px;
+    height: 800px;
+    width: 100%;
 
 }
 
@@ -73,7 +74,7 @@ body {
 .name-and-title {
 
     text-align: center;
-    margin-top: 225px;
+    margin-top: 250px;
     letter-spacing: .05em;
 
 }
@@ -130,10 +131,11 @@ body {
 
 }
 
-.project-gallery-section {
+.project-gallery-section,
+.about-section {
 
     background-color: RGB(39, 40, 33);
-    height: 750px;
+    height: 650px;
 	
 }
 
@@ -143,7 +145,8 @@ body {
 
 }
 
-.project-title-div h1 {
+.project-title-div h1,
+.about-title-div h1 {
 
     background-color: white;
     height: 50px;
@@ -252,6 +255,12 @@ body {
 
 }
 
+.about-div {
+
+
+
+}
+
 @media (max-width: 400px) {
 
     .first-project,
@@ -270,11 +279,6 @@ body {
 
     }
 
-    .tooltip {
-
-        left: 0;
-
-    }
 }
 
 @media (max-width: 525px) {
