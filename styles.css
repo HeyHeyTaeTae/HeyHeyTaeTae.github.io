@@ -33,7 +33,7 @@ body {
 
 .basic-info {
 
-    background: url(http://i.imgur.com/l8vvhk5.jpg); 
+    background: url(http://i.imgur.com/Dq2qsz3.jpg); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -74,8 +74,9 @@ body {
 .name-and-title {
 
     text-align: center;
-    margin-top: 250px;
-    letter-spacing: .05em;
+    margin-top: 375px;
+    letter-spacing: 1em;
+    font-size: 12px;
 
 }
 
@@ -83,6 +84,14 @@ body {
 
 	font-size: 7em;
     letter-spacing: 5px;
+
+}
+
+.name-and-title h2 {
+
+    border-bottom: 2px solid white;
+    width: 60%;
+    margin: auto;
 
 }
 
@@ -263,16 +272,30 @@ body {
 
 @media (max-width: 400px) {
 
+    .icon-row {
+
+        margin: 20px 0 0 0;
+
+    }
+
     .basic-info {
 
         height: 600px;
+        background-position-x: 35%;
 
     }
 
     .name-and-title {
 
-        margin-top: 250px;
+        margin-top: 300px;
         font-size: 10px;
+        letter-spacing: .05em;
+
+    }
+
+    .name-and-title h2 {
+
+        width: 80%;
 
     }
 
@@ -294,7 +317,7 @@ body {
 
 }
 
-@media (max-width: 525px) {
+/*@media (max-width: 525px) {
 
     .basic-info {
 
@@ -302,7 +325,7 @@ body {
 
     }
 
-}
+}*/
 
 
 
