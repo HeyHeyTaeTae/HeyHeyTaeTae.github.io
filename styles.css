@@ -340,7 +340,7 @@ body {
 
     .name-and-title {
 
-        margin-top: 300px;
+        margin-top: 400px;
         font-size: 10px;
         letter-spacing: .05em;
 
@@ -365,6 +365,38 @@ body {
         width: 100%;
         margin: 0;
         background-position-x: -160px;
+
+    }
+
+    .about-row {
+
+        height: 500px;
+
+    }
+
+    .about-info {
+
+        width: 100%;
+
+    }
+
+    .about-info h1 {
+
+        padding: 0;
+
+    }
+
+    .about-info p {
+
+        padding: 10% 0 0 0;
+        font-size: 18px;
+        line-height: 2em;
+
+    }
+
+    .about-img {
+
+        display: none;
 
     }
 
