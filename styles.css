@@ -87,7 +87,7 @@ body {
 .name-and-title {
 
     text-align: center;
-    margin-top: 375px;
+    margin-top: 450px;
     letter-spacing: 1em;
     font-size: 12px;
 
@@ -352,6 +352,12 @@ body {
 
     }
 
+    .project-row {
+
+        padding-top: 50px;
+
+    }
+
     .first-project,
     .third-project {
 
@@ -396,6 +402,12 @@ body {
     }
 
     .about-img {
+
+        display: none;
+
+    }
+
+    .tooltip {
 
         display: none;
 
