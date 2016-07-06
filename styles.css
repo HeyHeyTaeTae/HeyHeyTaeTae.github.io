@@ -40,7 +40,7 @@ body {
     background-size: cover;
     opacity: .95;
     background-position-y: 75%;
-    max-width: 1800px;
+    max-width: 2400px;
 
 }
 
@@ -51,12 +51,6 @@ body {
     width: 100%;
 
 }
-
-.basic-info-row {
-
-    background-color: RGBA(39, 40, 33, .2);
-
-} 
 
 .icon-row {
 
@@ -188,8 +182,6 @@ body {
 
 .first-project {
 
-    width: 25%;
-    height: 350px;
     margin-left: 8.33%;
     visibility: hidden;
 
@@ -197,8 +189,6 @@ body {
 
 .second-project {
 
-    width: 25%;
-    height: 350px;
     background-color: white;
     margin: 0 4.165% 0 4.165%;
     background-image: url(http://i.imgur.com/70fKFnz.png);
@@ -217,10 +207,17 @@ body {
 
 .third-project {
 
-    width: 25%;
-    height: 350px;
     margin-right: 8.33%;
     visibility: hidden;
+
+}
+
+.first-project,
+.second-project,
+.third-project {
+
+    height: 100%;
+    width: 25%;
 
 }
 
@@ -415,15 +412,69 @@ body {
 
 }
 
-/*@media (max-width: 525px) {
+@media (min-width: 2399px) {
 
     .basic-info {
 
-        background-position-x: 35%;
+        background-position-y: 35%;
 
     }
 
-}*/
+    .basic-info,
+    .basic-info-row {
+
+        height: 1100px;
+
+    }    
+
+    .name-and-title {
+
+        margin-top: 775px;
+        font-size: 22px;
+
+    }
+
+    .project-title-div h1,
+    .about-title-div h1 {
+
+        height: 75px;
+        line-height: 75px;
+        font-size: 3em;
+
+    }
+
+    .project-row {
+
+        height: 400px;
+
+    }
+
+    .about-section {
+
+        height: 900px;
+
+    }
+
+    .about-row {
+
+        height: 650px;
+        margin-top: 100px;
+
+    }
+
+    .about-info h1 {
+
+        font-size: 4em;
+
+    }
+
+    .about-info p {
+
+        font-size: 2em;
+
+    }
+
+}
 
 
 
