@@ -357,6 +357,7 @@ body {
 
     #basic-info-phone-media {
         height: 550px;
+        background-position: 40%, 60%;
     }
 
     #basic-info-phone-media .name-and-title {
