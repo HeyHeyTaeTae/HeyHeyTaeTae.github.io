@@ -1,35 +1,26 @@
 $(document).ready(function(){
 	console.log("this works")
 	
-	$(".first-project").on("mouseover", function() {
-		var width = $(this).width();
-		// console.log("the width of the 2nd project div is " + width + "px");
-		var tooltip = $(this).children(".tooltip");
-		tooltip.css("width", width);
-	});
+	var $window = $(window);
 
-	$(".second-project").on("mouseover", function() {
-		var width = $(this).width();
-		// console.log("the width of the 2nd project div is " + width + "px");
-		var tooltip = $(this).children(".tooltip");
-		tooltip.css("width", width);
-	});
+	function checkWidth() {
+		var windowSize = $window.width();
+		if(windowSize < 600) {
+			$(".tooltip").css("display", "none");
+		}
+	}
 
-	$(".third-project").on("mouseover", function() {
-		var width = $(this).width();
-		// console.log("the width of the 2nd project div is " + width + "px");
-		var tooltip = $(this).children(".tooltip");
-		tooltip.css("width", width);
-	});
+	var projects = document.getElementsByClassName("project");
+	console.log(projects);
 
 	setTimeout(function() {
-
 		$(".name-and-title").hide().fadeIn(3000);
-
 	}, 700);
-				
-});
+	
+	checkWidth();
 
+	$window.resize(checkWidth);		
+});
 
 
 
