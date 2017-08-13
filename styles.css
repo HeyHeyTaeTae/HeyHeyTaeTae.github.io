@@ -355,9 +355,14 @@ body {
 
     }
 
+    #basic-info-phone-media {
+        height: 550px;
+    }
+
     #basic-info-phone-media .name-and-title {
 
         margin-top: 0;
+        padding-top: 150px;
         font-size: 10px;
         letter-spacing: .05em;
 
@@ -397,6 +402,10 @@ body {
 
     }
 
+    #about-phone-media {
+        height: 800px;
+    }
+
     #about-phone-media .my-photo,
     #about-phone-media .about-info {
         margin-top: 25px;
@@ -404,6 +413,9 @@ body {
 
     #about-info-phone-media p {
         line-height: 1.5em;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
     }
 
     .about-info {
