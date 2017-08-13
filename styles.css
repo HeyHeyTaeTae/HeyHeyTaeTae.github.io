@@ -268,7 +268,7 @@ body {
     color: white;    
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 600px) {
     .icon-row {
         margin: 20px 0 0 0;
     }
@@ -280,7 +280,7 @@ body {
 
     #basic-info-phone-media .name-and-title {
         margin-top: 0;
-        padding-top: 140px;
+        padding-top: 125px;
         font-size: 10px;
         letter-spacing: .05em;
     }
