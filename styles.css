@@ -33,13 +33,13 @@ body {
 
 .basic-info {
 
-    background: url(http://i.imgur.com/Dq2qsz3.jpg); 
+    background: url(http://i.imgur.com/pjyT4Hn.jpg); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     opacity: .95;
-    background-position-y: 75%;
+    background-position-y: 60%;
     max-width: 2400px;
 
 }
@@ -47,7 +47,7 @@ body {
 .basic-info,
 .basic-info-row {
 
-    height: 800px;
+    height: 600px;
     width: 100%;
 
 }
@@ -81,7 +81,7 @@ body {
 .name-and-title {
 
     text-align: center;
-    margin-top: 275px;
+    margin-top: 225px;
     letter-spacing: 1em;
     font-size: 12px;
 
@@ -119,19 +119,28 @@ body {
 
     background-image: url(http://i.imgur.com/Oq7OqZJ.png);
     background-position-y: 8px;
+    background-position-x: 8px; 
     background-repeat: no-repeat;
 
 }
 
+.resume-icon {
+    background-image: url(http://i.imgur.com/S3EgKEO.png);
+    background-size: cover;
+    transform: scale(0.75);
+}
+
 .linkedin-icon,
-.github-icon {
+.github-icon,
+.resume-icon {
 
     display: inline-block;
 
 }
 
 .linkedin-icon,
-.github-icon {
+.github-icon,
+.resume-icon {
 
     height: 64px;
     width: 64px;
