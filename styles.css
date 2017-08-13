@@ -105,7 +105,8 @@ body {
 }
 
 .linkedin-icon a,
-.github-icon a {
+.github-icon a,
+.resume-icon a {
     height: 100%;
     display: inline-block;
     width: 100%;
