@@ -21,7 +21,7 @@ img {
 
 @media only screen and (max-width: 600px) {
 	
-	#phone-media-resume {
+	.resume-div img {
 		height: 100%;
 		width: 100%;
 	}
