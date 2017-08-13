@@ -12,13 +12,17 @@ img {
 	margin: 0 auto;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
 	html,
 	body,
 	.content-wrapper,
 	.resume-div,
 	.resume-div img {
 		height: 100%;
+	}
+
+	.resume-div img {
+		width: 100%;
 	}
 }
 
