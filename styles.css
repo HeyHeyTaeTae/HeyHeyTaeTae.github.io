@@ -81,7 +81,7 @@ body {
 .name-and-title {
 
     text-align: center;
-    margin-top: 225px;
+    margin-top: 125px;
     letter-spacing: 1em;
     font-size: 12px;
 
@@ -89,13 +89,14 @@ body {
 
 .name-and-title h1 {
 
-	font-size: 7em;
+	font-size: 9em;
     letter-spacing: 5px;
 
 }
 
 .name-and-title h2 {
 
+    font-size: 2em;
     border-bottom: 2px solid white;
     width: 60%;
     margin: auto;
@@ -159,9 +160,18 @@ body {
 .project-gallery-section,
 .about-section {
 
-    background-color: RGB(39, 40, 33);
     height: 600px;
 	
+}
+
+.project-gallery-section,
+.skills-section,
+.about-section {
+    background-color: RGBA(44, 46, 54, 1)
+}
+
+.skills-section {
+    height: 400px;
 }
 
 .project-title-div {
@@ -326,7 +336,7 @@ body {
 
     font-size: 42px;
     text-align: center;
-    border-bottom: 3px solid white;
+    border-bottom: 2px solid white;
 
 }
 
