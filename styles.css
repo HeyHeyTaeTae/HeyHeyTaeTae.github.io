@@ -44,8 +44,7 @@ body {
 
 }
 
-.basic-info,
-.basic-info-row {
+.basic-info {
 
     height: 600px;
     width: 100%;
@@ -54,9 +53,10 @@ body {
 
 .icon-row {
 
+    margin-top: 25px;
     height: 64px;
     display: inline-block;
-    margin: 20px 0 0 20px;
+    /*margin: 20px 0 0 20px;*/
     /*position: fixed;    */
 
 }
@@ -81,7 +81,7 @@ body {
 .name-and-title {
 
     text-align: center;
-    margin-top: 125px;
+    padding-top: 180px;
     letter-spacing: 1em;
     font-size: 12px;
 
