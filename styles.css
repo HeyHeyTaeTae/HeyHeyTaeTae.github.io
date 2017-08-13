@@ -268,19 +268,19 @@ body {
     color: white;    
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
     .icon-row {
         margin: 20px 0 0 0;
     }
 
     #basic-info-phone-media {
-        height: 550px;
+        height: 525px;
         background-position: 40%, 60%;
     }
 
     #basic-info-phone-media .name-and-title {
         margin-top: 0;
-        padding-top: 150px;
+        padding-top: 140px;
         font-size: 10px;
         letter-spacing: .05em;
     }
