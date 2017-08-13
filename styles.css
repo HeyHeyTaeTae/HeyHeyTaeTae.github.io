@@ -43,8 +43,6 @@ body {
     margin-top: 25px;
     height: 64px;
     display: inline-block;
-    /*margin: 20px 0 0 20px;*/
-    /*position: fixed;    */
 }
 
 /*-- selects all col- class and gives float left --*/
@@ -149,7 +147,9 @@ body {
 
 .first-project {
     margin-left: 8.33%;
-    visibility: hidden;
+    background-image: url(http://i.imgur.com/70fKFnz.png);
+    background-size: cover;
+    background-position-x: 50%;
 }
 
 .second-project {
@@ -168,7 +168,9 @@ body {
 
 .third-project {
     margin-right: 8.33%;
-    visibility: hidden;
+    background-image: url(http://i.imgur.com/70fKFnz.png);
+    background-size: cover;
+    background-position-x: 50%;
 }
 
 .first-project,
@@ -216,7 +218,7 @@ body {
 }
 
 .project:hover .tooltip{
-    display: block;
+    display: inline-block;
 } 
 
 .tooltip p {
