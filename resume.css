@@ -11,3 +11,14 @@ img {
 	display: block;
 	margin: 0 auto;
 }
+
+@media (max-width: 450px) {
+	html,
+	body,
+	.content-wrapper,
+	.resume-div,
+	.resume-div img {
+		height: 100%;
+	}
+}
+
