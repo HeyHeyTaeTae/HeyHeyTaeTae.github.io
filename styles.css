@@ -184,12 +184,12 @@ body {
 }
 
 .tooltip {
-    opacity: 0;
     background-color: RGBA(39, 149, 191, 1);
     display: block;
     height: 200px;
     position: absolute;
     bottom: 105%;
+    display: none;
 }
 
 .project .tooltip:before {
@@ -216,7 +216,7 @@ body {
 }
 
 .project:hover .tooltip{
-    opacity: 1;
+    display: block;
 } 
 
 .tooltip p {
