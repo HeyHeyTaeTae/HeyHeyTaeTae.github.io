@@ -12,16 +12,16 @@ img {
 	margin: 0 auto;
 }
 
-@media (max-width: 1000px) {
-	html,
+@media only screen and (max-width: 1000px) {
+/*	html,
 	body,
 	.content-wrapper,
 	.resume-div,
-	.resume-div img {
+	#phone-media-resume {
 		height: 100%;
-	}
+	}*/
 
-	.resume-div img {
+	#phone-media-resume {
 		width: 100%;
 	}
 }
