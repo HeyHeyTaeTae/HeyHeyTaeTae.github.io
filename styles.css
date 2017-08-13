@@ -296,7 +296,7 @@ body {
     color: white;    
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 667px) {
     .icon-row {
         margin: 20px 0 0 0;
     }
