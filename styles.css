@@ -57,7 +57,7 @@ body {
     height: 64px;
     display: inline-block;
     margin: 20px 0 0 20px;
-    position: fixed;    
+    /*position: fixed;    */
 
 }
 
@@ -160,7 +160,7 @@ body {
 .about-section {
 
     background-color: RGB(39, 40, 33);
-    height: 700px;
+    height: 600px;
 	
 }
 
@@ -185,7 +185,7 @@ body {
 .project-row {
 
     height: 350px;
-    padding-top: 100px;
+    padding-top: 75px;
 
 }
 
@@ -206,7 +206,7 @@ body {
 
 }
 
-.second-project > a {
+.project-anchor {
 
     display: inline-block;
     height: 100%;
@@ -230,7 +230,7 @@ body {
 
 }
 
-.project-wrapper {
+.project {
 
     position: relative;
     color: white;
@@ -245,10 +245,9 @@ body {
     height: 200px;
     position: absolute;
     bottom: 105%;
-
 }
 
-.project-wrapper .tooltip:before {
+.project .tooltip:before {
   bottom: -20px;
   content: " ";
   display: block;
@@ -258,7 +257,7 @@ body {
   width: 100%;
 }  
 
-.project-wrapper .tooltip:after {
+.project .tooltip:after {
   border-left: solid transparent 10px;
   border-right: solid transparent 10px;
   border-top: solid #1496bb 10px;
@@ -271,7 +270,7 @@ body {
   width: 0;
 }
 
-.project-wrapper:hover .tooltip{
+.project:hover .tooltip{
 
     opacity: 1;
 
@@ -292,32 +291,42 @@ body {
 
 }
 
-.about-img {
+.my-photo {
 
-    background-image: url(http://i.imgur.com/7s7kO5W.jpg);
-    background-size: cover;
-    background-position-y: 40%; 
+    height: 200px;
+    width: 200px;
+    background-image: url(http://i.imgur.com/Dq2qsz3.jpg);
+    background-size: cover; 
+    border-radius: 50%;
 
 }
 
-.about-img,
+.my-photo,
 .about-info {
 
-    height: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
 
+}
+
+.about-info {
+
+    width: 70%;
 }
 
 .about-info p {
 
     line-height: 1.5em;
-    font-size: 18px;
+    font-size: 20px;
     padding-top: 2%;
 
 }
 
 .about-info h1 {
 
-    font-size: 30px;
+    font-size: 42px;
+    text-align: center;
+    border-bottom: 3px solid white;
 
 }
 
@@ -325,7 +334,6 @@ body {
 .about-info h1 {
 
     color: white;
-    padding-left: 10%;
     
 }
 
