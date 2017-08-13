@@ -3,20 +3,24 @@
 	padding: 0;
 }
 
+	html,
+	body,
+	.content-wrapper,
+	.resume-div {
+		height: 100%;
+	}
+
 body {
 	background-color: RGBA(44, 46, 54, 1);
 }
 
 img {
 	display: block;
-	margin: 0 auto;
+	margin: auto;
 }
 
 @media only screen and (max-width: 600px) {
-	html,
-	body,
-	.content-wrapper,
-	.resume-div,
+	
 	#phone-media-resume {
 		height: 100%;
 		width: 100%;
