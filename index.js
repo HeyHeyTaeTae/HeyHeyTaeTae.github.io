@@ -10,7 +10,7 @@ $(document).ready(function(){
 
 	setTimeout(function() {
 
-		$(".name-and-title").hide().fadeIn(8000);
+		$(".name-and-title").hide().fadeIn(6000);
 
 	}, 700);
 				

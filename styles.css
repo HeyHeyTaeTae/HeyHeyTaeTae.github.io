@@ -1,38 +1,29 @@
 * {
-
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 html,
 body {
-
     height: 100%;
-
 }
 
 /*-- fluid width and larger display width -- */
 .grid-container {
-
     width : 100%;
     max-width : 100%; 
-    
 }
 
 /*-- clearfix hack to contain rows -- */ 
 .row:before, 
 .row:after {
-
     content:"";
     display: table ;
     clear:both;
-     
 }
 
 .basic-info {
-
     background: url(http://i.imgur.com/pjyT4Hn.jpg); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -41,24 +32,19 @@ body {
     opacity: .95;
     background-position-y: 60%;
     max-width: 2400px;
-
 }
 
 .basic-info {
-
     height: 600px;
     width: 100%;
-
 }
 
 .icon-row {
-
     margin-top: 25px;
     height: 64px;
     display: inline-block;
     /*margin: 20px 0 0 20px;*/
     /*position: fixed;    */
-
 }
 
 /*-- selects all col- class and gives float left --*/
@@ -66,63 +52,39 @@ body {
   float: left;
 }
 
-.col-one-third {
-
-    width: 33.33%;
-
-}
-
-.col-two-thirds {
-
-    width: 66.66%;
-
-}
-
 .name-and-title {
-
     text-align: center;
     padding-top: 180px;
     letter-spacing: 1em;
     font-size: 12px;
-
 }
 
 .name-and-title h1 {
-
 	font-size: 8em;
     letter-spacing: 5px;
-
 }
 
 .name-and-title h2 {
-
     font-size: 2em;
     border-bottom: 2px solid white;
     width: 60%;
     margin: auto;
-
 }
 
 .name-and-title h1,
 .name-and-title h2 {
-
     color: white;
-
 }
 
 .linkedin-icon {
-
     background-image: url(http://i.imgur.com/b1nrLsw.png);
-
 }
 
 .github-icon {
-
     background-image: url(http://i.imgur.com/Oq7OqZJ.png);
     background-position-y: 8px;
     background-position-x: 8px; 
     background-repeat: no-repeat;
-
 }
 
 .resume-icon {
@@ -134,34 +96,26 @@ body {
 .linkedin-icon,
 .github-icon,
 .resume-icon {
-
     display: inline-block;
-
 }
 
 .linkedin-icon,
 .github-icon,
 .resume-icon {
-
     height: 64px;
     width: 64px;
-
 }
 
 .linkedin-icon a,
 .github-icon a {
-
     height: 100%;
     display: inline-block;
     width: 100%;
-
 }
 
 .project-gallery-section,
 .about-section {
-
     height: 600px;
-	
 }
 
 .project-gallery-section,
@@ -175,80 +129,61 @@ body {
 }
 
 .project-title-div {
-
     padding-top: 50px;
-
 }
 
 .project-title-div h1,
 .about-title-div h1 {
-
     background-color: white;
     height: 50px;
     line-height: 50px;
     text-align: center;
     color: RGB(39, 40, 33);
     font-size: 2em;
-
 }
 
 .project-row {
-
     height: 350px;
     padding-top: 75px;
-
 }
 
 .first-project {
-
     margin-left: 8.33%;
     visibility: hidden;
-
 }
 
 .second-project {
-
     background-color: white;
     margin: 0 4.165% 0 4.165%;
     background-image: url(http://i.imgur.com/70fKFnz.png);
     background-size: cover;
     background-position-x: 50%;
-
 }
 
 .project-anchor {
-
     display: inline-block;
     height: 100%;
     width: 100%;
-
 }
 
 .third-project {
-
     margin-right: 8.33%;
     visibility: hidden;
-
 }
 
 .first-project,
 .second-project,
 .third-project {
-
     height: 100%;
     width: 25%;
-
 }
 
 .project {
-
     position: relative;
     color: white;
-
 }
 
 .tooltip {
-
     opacity: 0;
     background-color: RGBA(39, 149, 191, 1);
     display: block;
@@ -281,78 +216,58 @@ body {
 }
 
 .project:hover .tooltip{
-
     opacity: 1;
-
 } 
 
 .tooltip p {
-
     padding: 10px;
-
 }
 
 .about-row {
-
     height: 400px;
     width: 80%;
     margin: auto;
     margin-top: 150px;
-
 }
 
 .my-photo {
-
     height: 200px;
     width: 200px;
     background-image: url(http://i.imgur.com/Dq2qsz3.jpg);
     background-size: cover; 
     border-radius: 50%;
-
 }
 
 .my-photo,
 .about-info {
-
     margin: 0 auto;
-    margin-top: 50px;
-
+    margin-top: 40px;
 }
 
 .about-info {
-
     width: 70%;
 }
 
 .about-info p {
-
     line-height: 1.5em;
     font-size: 20px;
     padding-top: 2%;
-
 }
 
 .about-info h1 {
-
     font-size: 42px;
     text-align: center;
     border-bottom: 2px solid white;
-
 }
 
 .about-info p,
 .about-info h1 {
-
-    color: white;
-    
+    color: white;    
 }
 
 @media (max-width: 450px) {
-
     .icon-row {
-
         margin: 20px 0 0 0;
-
     }
 
     #basic-info-phone-media {
@@ -361,46 +276,33 @@ body {
     }
 
     #basic-info-phone-media .name-and-title {
-
         margin-top: 0;
         padding-top: 150px;
         font-size: 10px;
         letter-spacing: .05em;
-
     }
 
     .name-and-title h2 {
-
         width: 80%;
-
     }
 
     .project-row {
-
         padding-top: 50px;
-
     }
 
     .first-project,
     .third-project {
-
         height: 0;
         margin: 0;
-
     }
 
     .second-project {
-
         width: 100%;
         margin: 0;
-        /*background-position-x: -160px;*/
-
     }
 
     .about-row {
-
         height: 500px;
-
     }
 
     #about-phone-media {
@@ -420,100 +322,71 @@ body {
     }
 
     .about-info {
-
         width: 100%;
-
     }
 
     .about-info h1 {
-
         padding: 0;
         border-bottom: 1px solid white;
-
     }
 
     .about-info p {
-
         padding: 0;
         font-size: 18px;
         line-height: 2em;
-
     }
 
     .about-img {
-
         display: none;
-
     }
 
     .tooltip {
-
         display: none;
-
     }
 
 }
 
 @media (min-width: 2399px) {
-
     .basic-info {
-
         background-position-y: 35%;
-
     }
 
     .basic-info,
     .basic-info-row {
-
         height: 1100px;
-
     }    
 
     .name-and-title {
-
         margin-top: 775px;
         font-size: 22px;
-
     }
 
     .project-title-div h1,
     .about-title-div h1 {
-
         height: 75px;
         line-height: 75px;
         font-size: 3em;
-
     }
 
     .project-row {
-
         height: 400px;
-
     }
 
     .about-section {
-
         height: 900px;
-
     }
 
     .about-row {
-
         height: 650px;
         margin-top: 100px;
-
     }
 
     .about-info h1 {
-
         font-size: 4em;
-
     }
 
     .about-info p {
-
         font-size: 2em;
-
     }
 
 }
