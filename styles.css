@@ -152,7 +152,7 @@ body {
 
 .first-project {
     margin-left: 8.33%;
-    background-image: url(http://i.imgur.com/70fKFnz.png);
+    background-image: url(http://i.imgur.com/FIXQO9w.png);
     background-size: cover;
     background-position-x: 50%;
 }
@@ -165,17 +165,17 @@ body {
     background-position-x: 50%;
 }
 
+.third-project {
+    margin-right: 8.33%;
+    background-image: url(http://i.imgur.com/GpsxCrw.png);
+    background-size: cover;
+    background-position-x: 50%;
+}
+
 .project-anchor {
     display: inline-block;
     height: 100%;
     width: 100%;
-}
-
-.third-project {
-    margin-right: 8.33%;
-    background-image: url(http://i.imgur.com/70fKFnz.png);
-    background-size: cover;
-    background-position-x: 50%;
 }
 
 .first-project,
