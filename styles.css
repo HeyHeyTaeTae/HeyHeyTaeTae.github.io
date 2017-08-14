@@ -24,7 +24,7 @@ body {
 }
 
 .basic-info {
-    background: url(http://i.imgur.com/pjyT4Hn.jpg); 
+    background: url(./assets/Hero.jpg); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -152,7 +152,7 @@ body {
 
 .first-project {
     margin-left: 8.33%;
-    background-image: url(http://i.imgur.com/FIXQO9w.png);
+    background-image: url(./assets/Wordkor.png);
     background-size: cover;
     background-position-x: 50%;
 }
@@ -160,14 +160,14 @@ body {
 .second-project {
     background-color: white;
     margin: 0 4.165% 0 4.165%;
-    background-image: url(http://i.imgur.com/70fKFnz.png);
+    background-image: url(./assets/Spiffify.png);
     background-size: cover;
     background-position-x: 50%;
 }
 
 .third-project {
     margin-right: 8.33%;
-    background-image: url(http://i.imgur.com/GpsxCrw.png);
+    background-image: url(./assets/Adulting.png);
     background-size: cover;
     background-position-x: 50%;
 }
@@ -264,7 +264,7 @@ body {
 .my-photo {
     height: 200px;
     width: 200px;
-    background-image: url(http://i.imgur.com/Dq2qsz3.jpg);
+    background-image: url(./assets/portrait.jpg);
     background-size: cover; 
     border-radius: 50%;
 }
