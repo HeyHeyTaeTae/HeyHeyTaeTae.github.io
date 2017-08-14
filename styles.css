@@ -241,6 +241,11 @@ body {
     color: white;
 }
 
+.skills h2:hover,
+.skills p:hover {
+    cursor: default;
+}
+
 .skills h2 {
     padding-top: 10%;
     width: 50%;
