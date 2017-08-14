@@ -190,6 +190,15 @@ body {
     color: white;
 }
 
+.project-title {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 2px solid white;
+    padding-top: 3%;
+
+}
+
 .tooltip {
     background-color: RGBA(39, 149, 191, 1);
     display: block;
@@ -323,7 +332,7 @@ body {
     }
 
     #phone-media-project-gallery-section {
-        height: 1300px;
+        height: 1400px;
     }
 
     .project-row {
@@ -333,7 +342,11 @@ body {
     .project-row div {
         width: 100%;
         margin-left: 0;
-        margin-bottom: 10%;
+        margin-bottom: 20%;
+    }
+
+    .project h2 {
+        padding-top: 1%
     }
 
     .second-project {
