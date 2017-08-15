@@ -1,5 +1,11 @@
 $(document).ready(function(){
 	console.log("this works")
+
+	$(".name-and-title").hide()
+
+	setTimeout(function() {
+		$(".name-and-title").fadeIn(3000);
+	}, 700);
 	
 	var $window = $(window);
 
@@ -13,9 +19,6 @@ $(document).ready(function(){
 	var projects = document.getElementsByClassName("project");
 	console.log(projects);
 
-	setTimeout(function() {
-		$(".name-and-title").hide().fadeIn(3000);
-	}, 700);
 	
 	checkWidth();
 
