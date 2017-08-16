@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 	setTimeout(function() {
 		$(".name-and-title").fadeIn(3000);
-	}, 700);
+	}, 1000);
 	
 	var $window = $(window);
 
