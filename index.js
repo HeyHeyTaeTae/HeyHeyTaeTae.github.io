@@ -1,7 +1,7 @@
 $(document).ready(function(){
-	console.log("this works")
+	console.log("this works");
 
-	$(".name-and-title").hide()
+	$(".name-and-title").hide();
 
 	setTimeout(function() {
 		$(".name-and-title").fadeIn(3000);
